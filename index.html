@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./style/style.css" />
+    <script src="./script.js" defer></script>
+    <title>Quiz</title>
+  </head>
+  <body>
+    <div class="alert">
+      <div class="alert__message">Congratulations !!</div>
+      You Got all MCQs correct.
+    </div>
+    <form class="form">
+      <ol class="form__ol">
+        <li class="form__li">
+          What does this code return?(0 || "" || null || "Karan")
+          <div>
+            <input
+              type="radio"
+              name="question1"
+              id="false"
+              value="false"
+            /><label for="false">false</label>
+          </div>
+          <div>
+            <input type="radio" name="question1" id="''" value="''" /><label
+              for="''"
+              >' '</label
+            >
+          </div>
+          <div>
+            <input type="radio" name="question1" id="null" value="null" /><label
+              for="null"
+              >null</label
+            >
+          </div>
+          <div>
+            <input
+              type="radio"
+              name="question1"
+              id="Karan"
+              value="Karan"
+              data-value="correct"
+            /><label for="Karan">"Karan"</label>
+          </div>
+        </li>
+        <li class="form__li">
+          What is a function called which calls itself ?
+          <div>
+            <input
+              type="radio"
+              name="question2"
+              id="callback_function"
+              value="callback_function"
+            /><label for="callback_function">callback function</label>
+          </div>
+          <div>
+            <input type="radio" name="question2" id="''" value="''" /><label
+              for="''"
+              >' '</label
+            >
+          </div>
+          <div>
+            <input type="radio" name="question2" id="null" value="null" /><label
+              for="null"
+              >null</label
+            >
+          </div>
+          <div>
+            <input
+              type="radio"
+              name="question2"
+              id="recurrsion"
+              value="recurrsion"
+              data-value="correct"
+            /><label for="recurrsion">"recurrsion"</label>
+          </div>
+        </li>
+        <li class="form__li">
+          How do you call the data-input attribute in javascript ?
+          <div>
+            <input
+              type="radio"
+              name="question3"
+              id="element_dataset_input"
+              value="element_dataset_input"
+              data-value="correct"
+            /><label for="element_dataset_input">element.dataset.input</label>
+          </div>
+          <div>
+            <input
+              type="radio"
+              name="question3"
+              id="element.dataattribute.input"
+              value="element.dataattribute.input"
+            /><label for="element.dataattribute.input"
+              >element.dataattribute.input</label
+            >
+          </div>
+          <div>
+            <input type="radio" name="question3" id="null" value="null" /><label
+              for="null"
+              >null</label
+            >
+          </div>
+          <div>
+            <input
+              type="radio"
+              name="question3"
+              id="element.dataset.datainput"
+              value="element.dataset.datainput"
+            /><label for="element.dataset.datainput"
+              >"element.dataset.datainput"</label
+            >
+          </div>
+        </li>
+
+        <button class="form__btn">Submit</button>
+      </ol>
+    </form>
+  </body>
+</html>
